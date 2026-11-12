@@ -38,7 +38,7 @@
   heroText.append(actions);
   const portrait = el("div", "portrait");
   const photo = el("img", "portrait__image");
-  photo.src = "./assets/portrait.png";
+  photo.src = "./assets/portrait-2026.jpg";
   photo.alt = `Portrait of ${data.name}`;
   photo.width = 320;
   photo.height = 320;
@@ -78,7 +78,7 @@
     article.append(top);
     job.groups.forEach(group => {
       const groupBlock = el("div", "job__group");
-      groupBlock.append(el("h4", "job__group-title", group.label));
+      if (group.label) groupBlock.append(el("h4", "job__group-title", group.label));
       const list = el("ul", "job__bullets");
       group.bullets.forEach(item => list.append(el("li", "", item)));
       groupBlock.append(list);

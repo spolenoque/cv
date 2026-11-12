@@ -12,7 +12,7 @@ title: "Data Solutions Engineer",
 
 To add a bullet, copy an existing quoted line in the relevant `bullets` list and add a comma after the preceding line. Save the file and reload the page. To change the design, edit [`styles.css`](./styles.css).
 
-The **Download CV** button points to [`assets/arsenii-polenok-cv.pdf`](./assets/arsenii-polenok-cv.pdf). Replace that file when you update the PDF. The website text and PDF are separate, so changing one does not update the other automatically. The portrait is stored in `assets/portrait.png`.
+The **Download CV** button points to [`assets/arsenii-polenok-cv.pdf`](./assets/arsenii-polenok-cv.pdf). Replace that file when you update the PDF. The website text and PDF are separate, so changing one does not update the other automatically. The current portrait is stored in `assets/portrait-2026.jpg`.
 
 You can open `index.html` directly in a browser to preview edits. The site has no dependencies.
 

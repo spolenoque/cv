@@ -37,7 +37,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--teal); outline-
 .button--outline { color: #f5fbfb; }
 .button--outline:hover { background: #3c4b5b; }
 .portrait { width: 245px; aspect-ratio: 1; overflow: hidden; justify-self: end; align-self: start; margin-top: 20px; border-radius: 50%; background: #344352; box-shadow: 0 18px 44px rgba(0,0,0,.18); }
-.portrait__image { display: block; width: 100%; height: 100%; object-fit: cover; }
+.portrait__image { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 23%; }
 
 .contact-bar { background: #e6ebec; border-bottom: 1px solid #d5dddd; }
 .contact-bar__inner { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 26px; padding-block: 15px; }
